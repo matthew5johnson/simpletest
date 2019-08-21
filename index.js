@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const app = express();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 
 const connection = mysql.createConnection({ 
     host: process.env.DB_HOST, 
